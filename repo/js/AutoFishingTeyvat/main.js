@@ -136,6 +136,9 @@
         '纳塔-垂钓点-安饶之野西-拟似燃素独角鱼_秘源机关·巡戒使-温火饵-普通',
         '纳塔-垂钓点-安饶之野西北-炽岩斗士急流鱼_拟似燃素独角鱼_秘源机关·巡戒使-温火饵-普通',
         '纳塔-垂钓点-安饶之野东-花鳉_繁花斗士急流鱼_青浪翻车鲀_晚霞翻车鲀_伪装鲨鲨独角鱼-果酿饵_澄晶果粒饵-普通',
+        '纳塔-垂钓点-悠悠度假村彩彩崖北-花鳉_繁花斗士急流鱼_青浪翻车鲀_伪装鲨鲨独角鱼-果酿饵_澄晶果粒饵-普通',
+        '纳塔-垂钓点-悠悠度假村呼呼丘西南-繁花斗士急流鱼_深潜斗士急流鱼_晚霞翻车鲀_伪装鲨鲨独角鱼-澄晶果粒饵-普通',
+        '纳塔-垂钓点-悠悠度假村悠悠集市西南-花鳉_深潜斗士急流鱼_青浪翻车鲀_晚霞翻车鲀-果酿饵_澄晶果粒饵-普通',
         '蒙德-垂钓点-龙脊雪山寒天之钉西-花鳉_鸩棘鱼_雪中君_流纹茶蝶鱼-果酿饵_赤糜饵_蠕虫假饵-普通',
         '蒙德-垂钓点-坠星山谷低语森林南-蓝染花鳉_水晶宴_鸩棘鱼_锖假龙_流纹茶蝶鱼-果酿饵_赤糜饵_蠕虫假饵_飞蝇假饵-普通',
         '蒙德-垂钓点-坠星山谷望风山地-花鳉_蓝染花鳉_擒霞客_水晶宴_鸩棘鱼_金赤假龙_流纹茶蝶-果酿饵_赤糜饵_蠕虫假饵_飞蝇假饵-普通',
@@ -511,10 +514,12 @@
 
             }
             // 本次已经到达4点(5s容错)
-            if (new Date() > time_4.setSeconds(time_4.getSeconds())) {
+            if (new Date() > time_4.setSeconds(time_4.getSeconds()) && new Date() < time_4.setSeconds(time_4.getSeconds() + 5)) {
                 await sleep(5000);
                 step_flag += 1;
                 auto_skip = false;
+            } else {
+                await sleep(10);
             }
             // 领取月卡(点击两次)
             if (step_flag === 2) {
@@ -658,7 +663,7 @@
 
         // 获取当前用户UID
         let uid = "default_user";
-        if (fishing_cd) {
+        if (fishing_cd && !is_con) {
             const ocrRoUid = RecognitionObject.Ocr(166, 198, 120, 22);
             const ocrRoText = RecognitionObject.Ocr(1565, 997, 177, 39);
 
@@ -667,20 +672,24 @@
             keyPress("Escape");
             await sleep(1000);
 
-            let ocrUid = captureGameRegion().Find(ocrRoUid); // 当前页面OCR
+            let ro1 = captureGameRegion();
+            let ocrUid = ro1.Find(ocrRoUid); // 当前页面OCR
             if (ocrUid.isExist()) {
                 uid = ocrUid.text;
             }
+            ro1.dispose();
 
             await genshin.returnMainUi();
 
             keyPress("F2"); // 按下F2打开多人模式界面
             await sleep(1000);
-            let ocrText = captureGameRegion().Find(ocrRoText); // 当前页面OCR
+            let ro2 = captureGameRegion();
+            let ocrText = ro2.Find(ocrRoText); // 当前页面OCR
             if (ocrText.isExist() && ocrText.text === "回到单人模式") {
                 log.info("当前为多人模式，垂钓点CD统计已失效...");
                 fishing_cd = false; // 多人模式下关闭CD记录功能
             }
+            ro2.dispose();
 
             await sleep(500);
             keyPress("Escape");
