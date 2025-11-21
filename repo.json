@@ -1,5 +1,5 @@
 {
-  "time": "20251111195242",
+  "time": "20251122000558",
   "url": "https://github.com/babalae/bettergi-scripts-list/archive/refs/heads/main.zip",
   "file": "repo.json",
   "indexes": [
@@ -13393,12 +13393,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "璃月",
                         "绝云椒椒"
                       ],
-                      "lastUpdated": "2025-09-17 13:56:15"
+                      "lastUpdated": "2025-11-20 09:29:03"
                     },
                     {
                       "name": "08-绝云椒椒-奥藏山-15个.json",
@@ -16675,12 +16675,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.42.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
                       "name": "02-青蜜莓-彩石顶右-2×3个.json",
@@ -16694,12 +16694,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
                       "name": "03-青蜜莓-彩石顶中-3×3个.json",
@@ -16713,12 +16713,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.42.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
                       "name": "04-青蜜莓-彩石顶中-1×3个.json",
@@ -16732,15 +16732,15 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.42.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
-                      "name": "05-青蜜梅-彩石顶分層-1x3个.json",
+                      "name": "05-青蜜莓-彩石顶分層-1x3个.json",
                       "type": "file",
                       "version": "1.0",
                       "author": "蜜柑魚",
@@ -16752,12 +16752,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
                       "name": "06-青蜜莓-彩石顶上-4×3个.json",
@@ -16771,12 +16771,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.42.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
                       "name": "07-青蜜莓-悬木人-5×3个.json",
@@ -16790,12 +16790,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
                       "name": "08-青蜜莓-坚岩隘谷-5×3个.json",
@@ -16809,15 +16809,15 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.42.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
-                      "name": "09-青蜜梅-火榴树根系-3x3个.json",
+                      "name": "09-青蜜莓-火榴树根系-3x3个.json",
                       "type": "file",
                       "version": "1.0",
                       "author": "小大",
@@ -16829,15 +16829,15 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-20 09:29:03"
                     },
                     {
-                      "name": "10-青蜜梅-瓦雷莎果园-3x3个.json",
+                      "name": "10-青蜜莓-瓦雷莎果园-3x3个.json",
                       "type": "file",
                       "version": "1.0",
                       "author": "小大",
@@ -16847,17 +16847,37 @@
                           "link": "https://github.com/xd1145"
                         }
                       ],
-                      "description": "青蜜梅补充",
+                      "description": "青蜜莓补充",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:28:15"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
-                      "name": "11-青蜜梅-奥奇卡纳塔-3x3个.json",
+                      "name": "11-青蜜莓-奥奇卡纳塔-分層-7个.json",
+                      "type": "file",
+                      "version": "1.0",
+                      "author": "蜜柑魚",
+                      "authors": [
+                        {
+                          "name": "蜜柑魚",
+                          "link": "https://github.com/this-Fish"
+                        }
+                      ],
+                      "description": "",
+                      "tags": [
+                        "bgi≥0.52.0",
+                        "地方特产",
+                        "纳塔",
+                        "青蜜莓"
+                      ],
+                      "lastUpdated": "2025-11-20 09:29:03"
+                    },
+                    {
+                      "name": "12-青蜜莓-奥奇卡纳塔-3x3个.json",
                       "type": "file",
                       "version": "1.0",
                       "author": "小大",
@@ -16869,15 +16889,15 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-01 00:49:28"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
-                      "name": "12-青蜜梅-火山顶01-3x1+8个.json",
+                      "name": "13-青蜜莓-火山顶01-3x1+8个.json",
                       "type": "file",
                       "version": "1.0",
                       "author": "小大",
@@ -16893,15 +16913,15 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-03 11:17:17"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     },
                     {
-                      "name": "13-青蜜梅-火山顶02-3x1.json",
+                      "name": "14-青蜜莓-火山顶02-3x1.json",
                       "type": "file",
                       "version": "1.0",
                       "author": "蜜柑魚",
@@ -16913,12 +16933,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.45.0",
+                        "bgi≥0.52.0",
                         "地方特产",
                         "纳塔",
                         "青蜜莓"
                       ],
-                      "lastUpdated": "2025-09-03 11:17:17"
+                      "lastUpdated": "2025-11-15 10:47:58"
                     }
                   ]
                 }
@@ -20024,7 +20044,7 @@
                         "帕蒂沙兰",
                         "有攀爬"
                       ],
-                      "lastUpdated": "2025-11-04 14:51:27"
+                      "lastUpdated": "2025-11-16 09:28:16"
                     },
                     {
                       "name": "06-须弥-帕蒂沙兰-桓那兰那右上-8个.json",
@@ -44450,7 +44470,7 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.47.0",
+                        "bgi≥0.52.0",
                         "矿物",
                         "紫晶块",
                         "双手剑",
@@ -44460,7 +44480,7 @@
                         "战斗",
                         "转圈拾取"
                       ],
-                      "lastUpdated": "2025-08-11 12:56:10"
+                      "lastUpdated": "2025-11-20 13:20:27"
                     },
                     {
                       "name": "G11-紫晶块-渊下宫-常夜灵庙下-2个.json",
@@ -86591,7 +86611,7 @@
         {
           "name": "AAA-Artifacts-Bulk-Supply",
           "type": "directory",
-          "version": "1.4.5",
+          "version": "1.4.6",
           "author": "mno",
           "authors": [
             {
@@ -86607,7 +86627,7 @@
           "tags": [
             "狗粮"
           ],
-          "lastUpdated": "2025-11-09 09:20:53"
+          "lastUpdated": "2025-11-17 09:28:25"
         },
         {
           "name": "AEscoffier_chef",
@@ -86650,7 +86670,7 @@
         {
           "name": "AbundantOre",
           "type": "directory",
-          "version": "0.22",
+          "version": "0.23",
           "author": "芝士贝果",
           "authors": [
             {
@@ -86662,7 +86682,7 @@
           "tags": [
             "bgi≥0.50.0"
           ],
-          "lastUpdated": "2025-11-11 19:52:17"
+          "lastUpdated": "2025-11-21 16:09:08"
         },
         {
           "name": "AcceleratedEditionSwitchParty",
@@ -86747,7 +86767,7 @@
         {
           "name": "ArtifactsGroupPurchasing",
           "type": "directory",
-          "version": "1.6.2",
+          "version": "1.6.3",
           "author": "mno",
           "authors": [
             {
@@ -86763,12 +86783,12 @@
           "tags": [
             "狗粮"
           ],
-          "lastUpdated": "2025-11-09 09:20:53"
+          "lastUpdated": "2025-11-19 09:26:39"
         },
         {
           "name": "Auto Theft NPC & 原食",
           "type": "directory",
-          "version": "2.0.3",
+          "version": "2.0.4",
           "author": "听雨♪",
           "authors": [
             {
@@ -86785,7 +86805,7 @@
             "购买食材",
             "图像识别"
           ],
-          "lastUpdated": "2025-10-31 16:55:26"
+          "lastUpdated": "2025-11-16 16:29:37"
         },
         {
           "name": "AutoArtifactsSalvageOrDestroy（1-4star）",
@@ -87039,7 +87059,7 @@
         {
           "name": "AutoHoeingOneDragon",
           "type": "directory",
-          "version": "1.10.4",
+          "version": "1.10.7",
           "author": "mno",
           "authors": [
             {
@@ -87053,7 +87073,7 @@
           ],
           "description": "锄地一条龙~|~一站式解决自动化锄地，支持只拾取狗粮，请仔细阅读README.md后使用",
           "tags": [],
-          "lastUpdated": "2025-11-05 23:50:29"
+          "lastUpdated": "2025-11-20 09:20:40"
         },
         {
           "name": "AutoInstructorLock",
@@ -87186,7 +87206,7 @@
         {
           "name": "AutoPickLitter",
           "type": "directory",
-          "version": "2.0.1",
+          "version": "2.0.3",
           "author": "古又",
           "authors": [
             {
@@ -87200,7 +87220,7 @@
             "收集",
             "成就"
           ],
-          "lastUpdated": "2025-11-11 19:51:26"
+          "lastUpdated": "2025-11-16 19:01:06"
         },
         {
           "name": "AutoRefinedCondensationResin",
@@ -87320,7 +87340,7 @@
         {
           "name": "AutoYuanQin",
           "type": "directory",
-          "version": "3.2.0",
+          "version": "3.2.1",
           "author": "提瓦特钓鱼玳师",
           "authors": [
             {
@@ -87336,7 +87356,7 @@
           "tags": [
             "bgi≥0.43.1"
           ],
-          "lastUpdated": "2025-10-02 09:57:37"
+          "lastUpdated": "2025-11-16 11:45:22"
         },
         {
           "name": "BuyOmni-UbiquityNet",
@@ -87364,7 +87384,7 @@
         {
           "name": "CD-Aware-AutoGather",
           "type": "directory",
-          "version": "1.7.7",
+          "version": "1.7.8",
           "author": "Ayaka-Main",
           "authors": [
             {
@@ -87380,7 +87400,7 @@
           "tags": [
             "bgi≥0.45.0"
           ],
-          "lastUpdated": "2025-11-02 13:27:59"
+          "lastUpdated": "2025-11-17 22:44:27"
         },
         {
           "name": "Ciallo",
@@ -87485,7 +87505,7 @@
         {
           "name": "DoubleFriendshipEncounterPoints",
           "type": "directory",
-          "version": "2.1.3",
+          "version": "2.1.4",
           "author": "起个名字好难的喵",
           "authors": [
             {
@@ -87495,9 +87515,9 @@
           ],
           "description": "历练点双倍好感~|~进入好友尘歌壶，用历练点领取双倍好感\n目前支持游戏语言：简体、繁体中文、英文\n支持进入好友尘歌壶后，让指定位置角色离队",
           "tags": [
-            "bgi≥0.44.1"
+            "bgi≥0.53.1"
           ],
-          "lastUpdated": "2025-11-02 10:09:59"
+          "lastUpdated": "2025-11-20 13:09:22"
         },
         {
           "name": "EscofierKitchenContraption",
@@ -87689,7 +87709,7 @@
         {
           "name": "MiliastraExperienceAutomation",
           "type": "directory",
-          "version": "0.7",
+          "version": "0.9",
           "author": "breadgrocery",
           "authors": [
             {
@@ -87705,7 +87725,7 @@
           "tags": [
             "bgi≥0.52.0"
           ],
-          "lastUpdated": "2025-11-02 13:27:59"
+          "lastUpdated": "2025-11-20 22:52:49"
         },
         {
           "name": "NaiLong",
@@ -88049,7 +88069,7 @@
         {
           "name": "TravelersTales",
           "type": "directory",
-          "version": "0.2",
+          "version": "0.2.1",
           "author": "ddaodan",
           "authors": [
             {
@@ -88069,7 +88089,7 @@
           "tags": [
             "bgi≥0.45.1"
           ],
-          "lastUpdated": "2025-11-09 23:08:46"
+          "lastUpdated": "2025-11-13 14:35:51"
         },
         {
           "name": "WeeklyBoss",
@@ -88122,6 +88142,23 @@
           "description": "[原琴]原神琴谱自动弹奏脚本~|~原神琴谱自动弹奏脚本，通过读取本地琴谱文件，解析成乐谱对象，然后模拟键盘操作，实现自动弹奏。（需角色手动提前乐器）",
           "tags": [],
           "lastUpdated": "2025-07-04 23:14:44"
+        },
+        {
+          "name": "YuanQinAssistant",
+          "type": "directory",
+          "version": "1.0.0",
+          "author": "himno",
+          "authors": [
+            {
+              "name": "himno",
+              "link": "https://github.com/himno"
+            }
+          ],
+          "description": "原琴助手~|~BetterGI版本的原琴助手，使用gs2格式的琴谱",
+          "tags": [
+            "bgi≥0.43.1"
+          ],
+          "lastUpdated": "2025-11-15 01:22:57"
         },
         {
           "name": "waitUntilSpecifiedTime",
@@ -88180,7 +88217,7 @@
         {
           "name": "七圣召唤七日历练全自动",
           "type": "directory",
-          "version": "2.13",
+          "version": "2.14",
           "author": "柒叶子",
           "authors": [
             {
@@ -88196,7 +88233,7 @@
           "tags": [
             "七圣召唤"
           ],
-          "lastUpdated": "2025-11-08 03:21:39"
+          "lastUpdated": "2025-11-17 09:27:16"
         },
         {
           "name": "七圣召唤角色邀约全自动",
@@ -88232,7 +88269,7 @@
         {
           "name": "使用历练点完成每日委托",
           "type": "directory",
-          "version": "2",
+          "version": "2.0.2",
           "author": "起个名字好难的喵",
           "authors": [
             {
@@ -88246,11 +88283,9 @@
           ],
           "description": "使用历练点完成每日委托~|~使用历练点完成每日委托：\n支持进入好友尘歌壶，使用历练点领取双倍好感(队伍中小于等于两人时，能使队伍中两人获得双倍好感)\n支持进入好友尘歌壶后，让指定位置角色离队\n能指定星期几执行，星期几不执行\n前往冒险家协会领取奖励",
           "tags": [
-            "bgi≥0.44.1",
-            "历练点",
-            "每日委托"
+            "bgi≥0.44.1"
           ],
-          "lastUpdated": "2025-11-02 10:18:28"
+          "lastUpdated": "2025-11-21 09:34:04"
         },
         {
           "name": "使用料理",
@@ -88416,7 +88451,7 @@
         {
           "name": "批量讨伐角色养成材料BOSS",
           "type": "directory",
-          "version": "0.4",
+          "version": "0.5",
           "author": "无激情非少年",
           "authors": [
             {
@@ -88424,9 +88459,9 @@
               "link": "https://github.com/1004452714"
             }
           ],
-          "description": "批量讨伐角色养成材料BOSS~|~一次性配置多个角色材料的boss，体力不足时保存进度，每次运行时断点续打。\n\n感谢boss地图追踪作者：@柒叶子@Tool_tingsu,\n\n感谢 @柒叶子【首领讨伐一条龙 - 首领连续讨伐】的地脉花寻路的代码实现 \n\n感谢@wjdsg @Tool_tingsu【纪行周常-10个boss一条龙】循环讨伐的代码实现",
+          "description": "批量讨伐角色养成材料BOSS~|~一次性配置多个角色材料的boss，体力不足时保存进度，每次运行时断点续打",
           "tags": [],
-          "lastUpdated": "2025-11-02 13:27:59"
+          "lastUpdated": "2025-11-16 09:26:47"
         },
         {
           "name": "提瓦特百货商店",
@@ -88638,7 +88673,7 @@
         {
           "name": "角色养成一条龙",
           "type": "directory",
-          "version": "1.6",
+          "version": "1.6.1",
           "author": "柒叶子",
           "authors": [
             {
@@ -88648,7 +88683,7 @@
           ],
           "description": "角色养成一条龙~|~详见readme.md",
           "tags": [],
-          "lastUpdated": "2025-11-02 13:27:59"
+          "lastUpdated": "2025-11-13 10:16:08"
         },
         {
           "name": "计算机电源操作",
@@ -89145,7 +89180,7 @@
         {
           "name": "万能战斗策略（萌新推荐）.txt",
           "type": "file",
-          "version": "v1.5",
+          "version": "v1.6",
           "author": "火山",
           "authors": [
             {
@@ -89190,7 +89225,7 @@
             "琴",
             "娜维娅"
           ],
-          "lastUpdated": "2025-11-05 20:34:34"
+          "lastUpdated": "2025-11-17 22:43:46"
         },
         {
           "name": "万芙芭茜.txt",
@@ -89635,7 +89670,7 @@
         {
           "name": "伊芙爱万玛.txt",
           "type": "file",
-          "version": "v2.0",
+          "version": "v2.0.1",
           "author": "古又",
           "authors": [
             {
@@ -89650,7 +89685,7 @@
             "枫原万叶",
             "玛薇卡"
           ],
-          "lastUpdated": "2025-10-24 12:01:02"
+          "lastUpdated": "2025-11-22 00:04:13"
         },
         {
           "name": "低命融仆.txt",
@@ -89869,6 +89904,50 @@
             "琴"
           ],
           "lastUpdated": "2024-10-11 01:34:14"
+        },
+        {
+          "name": "奈芙尔满辉带盾.txt",
+          "type": "file",
+          "version": "20251112170827",
+          "author": "",
+          "authors": null,
+          "description": "",
+          "tags": [
+            "钟离",
+            "芙宁娜",
+            "迪奥娜",
+            "茜特菈莉",
+            "白术",
+            "纳西妲",
+            "爱诺",
+            "行秋",
+            "珊瑚宫心海",
+            "妮露",
+            "菈乌玛",
+            "奈芙尔"
+          ],
+          "lastUpdated": "2025-11-12 17:08:27"
+        },
+        {
+          "name": "奈菈草妮钟.txt",
+          "type": "file",
+          "version": "20251116202102",
+          "author": "李小璐的假奶量",
+          "authors": [
+            {
+              "name": "李小璐的假奶量",
+              "link": "https://github.com/FZR1314521"
+            }
+          ],
+          "description": "没要求，练度别太低就行，具体自己用一下看看",
+          "tags": [
+            "钟离",
+            "妮露",
+            "纳西妲",
+            "菈乌玛",
+            "奈芙尔"
+          ],
+          "lastUpdated": "2025-11-16 20:21:02"
         },
         {
           "name": "妮绽放(无霸体).txt",
@@ -90105,6 +90184,21 @@
           "lastUpdated": "2025-10-18 19:07:49"
         },
         {
+          "name": "恰斯卡V5.3(恰斯卡+水神+茜特菈莉+火).txt",
+          "type": "file",
+          "version": "20251116114451",
+          "author": "",
+          "authors": null,
+          "description": "",
+          "tags": [
+            "茜特菈莉",
+            "芙宁娜",
+            "可莉",
+            "恰斯卡"
+          ],
+          "lastUpdated": "2025-11-16 11:44:51"
+        },
+        {
           "name": "恰火茜芭.txt",
           "type": "file",
           "version": "20250426220908",
@@ -90213,6 +90307,32 @@
             "流浪者"
           ],
           "lastUpdated": "2025-10-18 19:07:49"
+        },
+        {
+          "name": "月草c.txt",
+          "type": "file",
+          "version": "20251112170801",
+          "author": "",
+          "authors": null,
+          "description": "",
+          "tags": [
+            "菈乌玛",
+            "茜特菈莉",
+            "爱可菲",
+            "爱诺",
+            "绮良良",
+            "神里凌华",
+            "行秋",
+            "钟离",
+            "迪奥娜",
+            "珊瑚宫心海",
+            "申鹤",
+            "夜兰",
+            "纳西妲",
+            "芙宁娜",
+            "奈芙尔"
+          ],
+          "lastUpdated": "2025-11-12 17:08:01"
         },
         {
           "name": "机娘芙芙一拖三-伊芙砂莫(行爱芭莱兼容).txt",

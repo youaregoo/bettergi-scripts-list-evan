@@ -34,7 +34,7 @@ const settingsNotDoublePoints = settings.notDoublePoints || false;
 const settingsAppointFriendName = settings.appointFriendName ? settings.appointFriendName.trim() : "";
 
 // 读取冒险家协会的指定地区
-const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用枫丹兜底
+const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用蒙德兜底
 
 /**
  * @returns {Promise<void>}
@@ -325,9 +325,9 @@ const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用�
             } else {
                 for (let i = 0; i < 10; i++) {
                     const ro8 = captureGameRegion();
-                    let paimonMenu = ro8.Find(paimonMenuRo);
-                    let CoOpMode = ro8.Find(CoOpModeRo);
-                    let MyFriends = ro8.Find(MyFriendsRo);
+                    let paimonMenu = ro8.find(paimonMenuRo);
+                    let CoOpMode = ro8.find(CoOpModeRo);
+                    let MyFriends = ro8.find(MyFriendsRo);
                     ro8.dispose();
                     if (CoOpMode.isExist() || MyFriends.isExist()) {
                         log.info("继续申请");
@@ -337,7 +337,7 @@ const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用�
                         await click(960, 540);
                         for (let i = 0; i < 30; i++) {
                             const ro9 = captureGameRegion();
-                            let paimonMenu = ro9.Find(paimonMenuRo);
+                            let paimonMenu = ro9.find(paimonMenuRo);
                             ro9.dispose();
                             if (paimonMenu.isExist()) {
                                 break;
@@ -380,7 +380,7 @@ const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用�
         }
 
         let y_avatar = 178; //好友头像按钮起始Y坐标
-        let y_request = 245; //申请造访按钮起始Y坐标
+        let y_request = 310; //申请造访按钮起始Y坐标
         const x_avatar = 208;
         const x_request = 460;
         const avatar_increment = 125; //两按钮相隔坐标
@@ -407,7 +407,7 @@ const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用�
                 await sleep(750);
             } else {
                 // 奇数索引，递增 y_request
-                if (request_count < 2) {
+                if (request_count < 1) {
                     // 前 3 位好友递增 249
                     y_request += request_increment;
                 } else {
@@ -423,7 +423,7 @@ const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用�
         log.info("等待界面响应");
         for (let i = 0; i < 30; i++) {
             const ro20 = captureGameRegion();
-            let res = ro20.Find(paimonMenuRo);
+            let res = ro20.find(paimonMenuRo);
             ro20.dispose();
             if (res.isEmpty()) {
                 await click(960, 540);
@@ -502,7 +502,7 @@ const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用�
 
         await sleep(2000);
         const ro27 = captureGameRegion();
-        let AdventurerHandbookButton = ro27.Find(AdventurerHandbookButtonRo);
+        let AdventurerHandbookButton = ro27.find(AdventurerHandbookButtonRo);
         ro27.dispose();
         if (AdventurerHandbookButton.isExist()) {
             log.info("识别到冒险之证按钮");
@@ -526,7 +526,7 @@ const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用�
 
             await sleep(2000)
             const ro28 = captureGameRegion();
-            let EncounterPointsStageRewardsButton = ro28.Find(Cannot_receive);
+            let EncounterPointsStageRewardsButton = ro28.find(Cannot_receive);
             ro28.dispose();
             if (EncounterPointsStageRewardsButton.isExist()) {
                 log.info("识别到 完成所有任務");
@@ -569,7 +569,7 @@ const adventurePath = settings.adventurePath || '蒙德'; // 若未定义，用�
             log.info("等待界面响应");
             for (let i = 0; i < 10; i++) {
                 const ro26 = captureGameRegion();
-                let res = ro26.Find(paimonMenuRo);
+                let res = ro26.find(paimonMenuRo);
                 ro26.dispose();
                 if (res.isEmpty()) {
                     await click(960, 540);
