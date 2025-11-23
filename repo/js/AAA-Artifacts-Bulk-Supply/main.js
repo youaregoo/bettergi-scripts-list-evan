@@ -1,3 +1,5 @@
+eval(file.readTextSync("./lib/goodtool.js"));
+
 // 初始化自定义配置并赋予默认值
 let artifactPartyName = settings.artifactPartyName || "狗粮";//狗粮队伍名称
 let combatPartyName = settings.combatPartyName;//清怪队伍名称
@@ -11,6 +13,9 @@ let autoSalvage = settings.autoSalvage;//启用自动分解
 let notify = settings.notify;//启用通知
 let accountName = settings.accountName || "默认账户";//账户名
 let TMthreshold = +settings.TMthreshold || 0.9;//拾取阈值
+
+accountName = myuid || accountName;
+log.info(`今日运行${accountName}-账号`);
 
 //文件路径
 const ArtifactsButtonRo = RecognitionObject.TemplateMatch(file.ReadImageMatSync("assets/RecognitionObject/ArtifactsButton.png"));
