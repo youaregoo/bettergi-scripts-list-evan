@@ -10,12 +10,13 @@ let state;
 let gameRegion;
 let TMthreshold = +settings.TMthreshold || 0.9;
 let doRunExtra = false;
+let expGain;
 
 (async function () {
     setGameMetrics(1920, 1080, 1);
 
     if (settings.logName) {
-        await processArtifacts();
+        expGain = await processArtifacts();
     }
     await genshin.tpToStatueOfTheSeven();
     await switchPartyIfNeeded(settings.partyName);
@@ -43,6 +44,7 @@ let doRunExtra = false;
         const pos = enteringIndex.indexOf(yourIndex) + 1; // 第几个执行
         log.info(`你的序号是${yourIndex}号，将在第${pos}个执行`);
 
+        let loopCnt = 0;
         // 按 runningOrder 依次进入世界并执行联机收尾
         for (const idx of enteringIndex) {
             await genshin.clearPartyCache();
@@ -68,7 +70,7 @@ let doRunExtra = false;
                 autoEnterSettings = {
                     enterMode: "等待他人进入",
                     permissionMode: "白名单",
-                    timeout: 5,
+                    timeout: loopCnt++ === 0 ? 15 : 5,   // ← 第一次 15，之后 5
                     maxEnterCount: Object.keys(permits).length
                 };
 
@@ -81,7 +83,7 @@ let doRunExtra = false;
                 autoEnterSettings = {
                     enterMode: "进入他人世界",
                     enteringUID: settings[`p${idx}UID`],
-                    timeout: 5
+                    timeout: loopCnt++ === 0 ? 15 : 5,   // ← 第一次 15，之后 5
                 };
                 log.info(`将要进入序号${idx}，uid为${settings[`p${idx}UID`]}的世界`);
                 notification.send(`将要进入序号${idx}，uid为${settings[`p${idx}UID`]}，名称为${settings[`p${idx}Name`]}的世界`);
@@ -129,7 +131,7 @@ let doRunExtra = false;
     await genshin.tpToStatueOfTheSeven();
 
     if (settings.logName) {
-        let expGain = await processArtifacts();
+        expGain = await processArtifacts() - expGain;
         log.info(`${settings.logName}：联机狗粮分解获得经验${expGain}`);
         notification.send(`${settings.logName}：联机狗粮分解获得经验${expGain}`);
     }
@@ -1451,28 +1453,27 @@ async function processArtifacts() {
         } else {
             log.warn(`在指定区域未识别到有效数字: ${newValue}`);
         }
-
-        log.info(`用户选择了分解，执行分解`);
-        // 根据用户配置，分解狗粮
-        await sleep(1000);
-        // 点击分解按钮
-        if (!await findAndClick(doDecomposeRo)) {
-            await genshin.returnMainUi();
-            return 0;
-        }
-        await sleep(500);
-
-        // 4. "进行分解"按钮// 点击进行分解按钮
-        if (!await findAndClick(doDecompose2Ro)) {
-            await genshin.returnMainUi();
-            return 0;
-        }
-        await sleep(1000);
-
-        // 5. 关闭确认界面
-        await click(1340, 755);
-        await sleep(1000);
-
+        /*
+                // 根据用户配置，分解狗粮
+                await sleep(1000);
+                // 点击分解按钮
+                if (!await findAndClick(doDecomposeRo)) {
+                    await genshin.returnMainUi();
+                    return 0;
+                }
+                await sleep(500);
+        
+                // 4. "进行分解"按钮// 点击进行分解按钮
+                if (!await findAndClick(doDecompose2Ro)) {
+                    await genshin.returnMainUi();
+                    return 0;
+                }
+                await sleep(1000);
+        
+                // 5. 关闭确认界面
+                await click(1340, 755);
+                await sleep(1000);
+        */
         const resinExperience = Math.max(newValue - initialValue, 0);
         log.info(`分解可获得经验: ${resinExperience}`);
         let resultExperience = resinExperience;

@@ -7,7 +7,8 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时131.36秒，包含以下怪物：1只遗迹重机、2只遗迹巡弋者、1只伸缩风蕈兽。",
+    "description": "  路线信息：该路线预计用时131.36秒，包含以下怪物：1只遗迹重机、2只遗迹巡弋者、0.5只伸缩风蕈兽。",
+    "hash_res": "12239776",
     "enable_monster_loot_split": false,
     "last_modified_time": 1762170381245,
     "map_match_method": "",
@@ -33,7 +34,7 @@
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "run",
+      "move_mode": "dash",
       "type": "orientation",
       "x": 4570.27734375,
       "y": -670.44384765625
@@ -42,7 +43,7 @@
       "action": "",
       "action_params": "",
       "id": 3,
-      "move_mode": "run",
+      "move_mode": "dash",
       "type": "path",
       "x": 4570.27734375,
       "y": -670.44384765625
@@ -51,7 +52,7 @@
       "action": "",
       "action_params": "",
       "id": 4,
-      "move_mode": "run",
+      "move_mode": "dash",
       "type": "path",
       "x": 4550.2236328125,
       "y": -719.0087890625

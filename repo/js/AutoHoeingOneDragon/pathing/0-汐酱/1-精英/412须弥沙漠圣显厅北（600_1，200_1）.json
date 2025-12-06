@@ -5,6 +5,7 @@
     "author": "汐",
     "version": "1.0",
     "description": "  路线信息：该路线预计用时136.15秒，包含以下怪物：1只遗迹重机、1只圣骸飞蛇。",
+    "hash_res": "69881025",
     "map_name": "Teyvat",
     "bgi_version": "0.45.0",
     "authors": [
@@ -33,7 +34,7 @@
       "x": 4814.5,
       "y": -1393.93,
       "action": "",
-      "move_mode": "run",
+      "move_mode": "dash",
       "action_params": "",
       "type": "path"
     },
@@ -42,7 +43,7 @@
       "x": 4802.68,
       "y": -1338.4,
       "action": "",
-      "move_mode": "run",
+      "move_mode": "dash",
       "action_params": "",
       "type": "path"
     },
